@@ -1,0 +1,71 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0px;
+    padding:0px;
+}
+@media (min-width: 1000px){
+
+}
+html{
+    scroll-behavior: smooth;
+}
+header ul{
+    border: 2px solid black;
+    list-style: none;
+    background-color: rgb(211, 248, 226);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    /* opacity: 10%; */
+}
+header ul li{
+    font-size: 120%;
+    font-family: Helvetica, sans-serif;
+    margin-right: 2em;
+}
+
+#seccion1 img{
+    width: 100%;
+}
+#seccion1 h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 5vw;
+}
+
+#seccion2 img{
+    width: 100%;
+}
+#seccion3 img{
+    width: 100%;
+}
+
+.menuFloat {
+    list-style-type: none;
+    margin-top: 300px;
+    padding: 0;
+    width: 100px;
+    height: 350px;
+    background-color: #f1f1f1;
+    position: fixed;
+  }
+  
+  .menuFloat li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .menuFloat li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+span {
+    font-size: 5em;
+}
